@@ -1214,7 +1214,7 @@ q q:after { content: "\2019" }
 .short_headline span {
     /* border-bottom:5px solid #d8dfe5; */
     letter-spacing: 0px;
-    color:#965251;
+    color:black;
 }
 
 p + .short_headline,

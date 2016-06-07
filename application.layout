@@ -110,7 +110,7 @@
             });
 
             // setEndPoint('http://londonderry.mallmaverick.com/api/v2/londonderry/all.json');
-            setEndPoint('http://halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/all.json');
+            setEndPoint('http://ptc.mallmaverick.com/api/v2/PTC/all.json');
             sessionStorage.setItem('primary_locale', 'en-CA');
             sessionStorage.setItem('secondary_locale', 'fr-CA');
         </script>

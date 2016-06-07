@@ -31,7 +31,7 @@
                     <div class="row-fluid equalHero equalHeights" id="list-content">
                         <center> <img alt="loading" style="width:250px; height:250px;" src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/466b965dbf1459e8b4127cd8039f46ab/loading-1.gif"></center>
                     </div>
-			        <a class="scroll_down" href="javascript:void(0);" onclick="media_scroll_down()"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/303a4f00a0bbdf75ebcc3b4b5ca7c4ed/icon_down.png"></a>
+			        <a class="scroll_down" href="javascript:void(0);" onclick="media_scroll_down()"><img src="http://assets.codecloudapp.com/sites/5757295d6e6f647a06080000/image/png/undefined/icon_down.png"></a>
                     <script id="blog_tile_template" type="x-tmpl-mustache">
                         <div class="renderingPost-container">
                             <ul class="renderingPost clearfix">

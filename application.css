@@ -42,7 +42,7 @@ nav.user a {
 }
 
 nav.user a:hover {
-    color: white;
+    color: black;
 }
 
 body.tall-logo nav.user {

@@ -2949,7 +2949,7 @@ h2,  h3 { page-break-after: avoid; }
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: #9a9a9a;
+    background-color: black;
     color: white;
     text-transform: uppercase;
     text-decoration: none;

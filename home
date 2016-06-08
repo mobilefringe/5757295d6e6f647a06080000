@@ -85,46 +85,14 @@
 <script>
 $(document).ready(function() {
     function renderPageData(){
-        renderPosts('#blog_banner_template', '#blog_banner',getBlogDataBySlug('ptc-blog').posts);
-        renderPosts('#blog_tile_template', '#main-content', getBlogDataBySlug('ptc-blog').posts);
+        renderPostSliderTemplate('#blog_banner_template', '#blog_banner',getBlogDataBySlug('ptc-blog').posts);
+        renderPostTileTemplate('#blog_tile_template', '#main-content',getBlogDataBySlug('ptc-blog').posts);
         imagesLoadedEvent("img",loadSlider);
     }
     loadMallData(renderPageData);
 });
 
-function renderPosts(container, template, collection){
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $(template).html();
-    var counter = 1;
-    Mustache.parse(template_html);   // optional, speeds up future uses
-    $.each( collection , function( key, val ) {
-        if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "http://assets.codecloudapp.com/sites/56056be06e6f641a1d020000/image/png/1446826281000/stc-logo-holiday-360 copy.png";
-        } else {
-            val.post_image = val.image_url;
-        }
-        if(val.body.length > 100){
-            val.description_short = val.body.substring(0,100) + "...";
-        }
-        else{
-            val.description_short = val.body;
-        }
-        val.description_short = val.description_short.replace("&amp;", "&");
-        val.slug = "posts/" +val.slug;
-        val.counter = counter;
-        var date_blog = new Date(val.publish_date);
-        console.log(val)
-        val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
-        
-        var rendered = Mustache.render(template_html,val);
-        item_rendered.push(rendered);
-        counter = counter+1;
-    });
-    
-    $(container).show();
-    $(container).html(item_rendered.join(''));
-}
+
 function loadSlider(){
     $( '.lemmon-slider' ).lemmonSlider({
 		infinite: true
@@ -142,50 +110,80 @@ function checkSeeMoreButton(){
         $('.sparkNowMore').fadeOut();
     }
 }
+function renderPostSliderTemplate(blog_template, blog_block, post){
 
-function get_month (id){
-    var month = ""
-    switch(id) {
-        case 0:
-            month = "Jan";
-            break;
-        case 1:
-            month = "Feb";
-            break;
-        case 2:
-            month = "Mar";
-            break;
-        case 3:
-            month = "Apr";
-            break;
-        case 4:
-            month = "May";
-            break;
-        case 5:
-            month = "June";
-            break;
-        case 6:
-            month = "July";
-            break;
-        case 7:
-            month = "Aug";
-            break;
-        case 8:
-            month = "Sep";
-            break;
-        case 9:
-            month = "Oct";
-            break;
-        case 10:
-            month = "Nov";
-            break;
-        case 11:
-            month = "Dec";
-            break;
-            
-    }
-    return month;
+    var item_list = [];
+    var item_rendered = [];
+    var blog_template_html = $(blog_template).html();
+    Mustache.parse(blog_template_html);   // optional, speeds up future uses
+
+    $.each( post , function( index, val ) {
+        if(val.tag.length != 0){
+            val.tag_first = val.tag[0];
+        }
+        if($.inArray('great news', val.tag) > -1){
+            val.great_news = 1;
+        }
+        item_list.push(val);
+    });
+
+    item_list.sort(function(a, b){
+        if(a.publish_date > b.publish_date) return -1;
+        if(a.publish_date < b.publish_date) return 1;
+        return 0;
+    });
+
+    $.each( item_list , function( index, val ) {
+        var blog_rendered = Mustache.render(blog_template_html,val);
+        item_rendered.push(blog_rendered);
+        
+        // $('.lemmon-slider').lemmonSlider('addItem', {item: blog_rendered});
+    });
+    $(blog_block).html(item_rendered.join(''));
 }
 
+function renderPostTileTemplate(blog_template, blog_block, post){
+
+    var item_list = [];
+    var item_rendered = [];
+    var blog_template_html = $(blog_template).html();
+    Mustache.parse(blog_template_html);   // optional, speeds up future uses
+    
+    totalPosts = post.length;
+    showingPosts = $('.sparkNowTile').length + interval;
+
+    $.each( post , function( key, val ) {
+        item_list.push(val);
+    });
+
+    $.each( item_list , function(key,val){
+        if(val.tag.length != 0){
+            val.tag_first = val.tag[0];
+        }
+        // if(val.impression_count < 20){
+        //     val.impression_tile_class = "sparkNowTileReadCount1";
+        // }else if (val.impression_count < 50){
+        //     val.impression_tile_class = "sparkNowTileReadCount2";
+        // }else if (val.impression_count < 100){
+        //     val.impression_tile_class = "sparkNowTileReadCount3";
+        // }else{
+        //     val.impression_tile_class = "sparkNowTileReadCount4";
+        // }
+    });
+    item_list.sort(function(a, b){
+        if(a.publish_date > b.publish_date) return -1;
+        if(a.publish_date < b.publish_date) return 1;
+        return 0;
+    });
+
+    $.each( item_list , function( index, val ) {
+        if (index >= showingPosts) {return false;};
+        
+        var blog_rendered = Mustache.render(blog_template_html,val);
+        item_rendered.push(blog_rendered);
+    });
+    $(blog_block).html(item_rendered.join(''));
+    checkSeeMoreButton();
+}
 
 </script>

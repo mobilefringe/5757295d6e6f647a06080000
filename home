@@ -85,8 +85,8 @@
 <script>
 $(document).ready(function() {
     function renderPageData(){
-        renderPostSliderTemplate('#blog_banner_template', '#blog_banner',getBlogDataBySlug('ptc-blog'));
-        renderPostTileTemplate('#blog_tile_template', '#main-content', getBlogDataBySlug('ptc-blog'));
+        renderPosts('#blog_banner_template', '#blog_banner',getBlogDataBySlug('ptc-blog'));
+        renderPosts('#blog_tile_template', '#main-content', getBlogDataBySlug('ptc-blog'));
         imagesLoadedEvent("img",loadSlider);
     }
     loadMallData(renderPageData);

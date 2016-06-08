@@ -118,12 +118,7 @@ function renderPostSliderTemplate(blog_template, blog_block, post){
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
 
     $.each( post , function( index, val ) {
-        if(val.tag.length != 0){
-            val.tag_first = val.tag[0];
-        }
-        if($.inArray('great news', val.tag) > -1){
-            val.great_news = 1;
-        }
+       
         item_list.push(val);
     });
 

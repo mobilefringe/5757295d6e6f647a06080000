@@ -155,7 +155,7 @@
 
             
             // renderPostDetailTemplate('#blog_detail_template_1', '#blog_detail_container_1',blog_detail);
-            renderPostDetails('#blog_detail_template_2', '#blog_detail_container_2',blog_detail);
+            renderPostDetails('#blog_detail_template_2', '#blog_detail_container_2', blog_detail);
             // renderPostListTemplate('#blog_detail_template_3', '#blog_detail_container_3', getBlogDataBySlug('ptc-blog').posts);
 
         }
@@ -271,7 +271,7 @@
             if (val.tag != undefined){
                 val.tag_list = val.tag.join(', ');
             }
-            val.twitter_title= val.title + " via @shopSTC";
+            consol.log(val)
             var rendered = Mustache.render(template_html,val);
             item_rendered.push(rendered);
         });

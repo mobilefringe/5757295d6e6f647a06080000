@@ -147,11 +147,11 @@
             var blog_detail = getPublishedPostDetailsBySlug(slug);
             // checkErrorPage(blog_detail);
            
-            var publish_date = new Date(blog_detail.publish_date);
+            // var publish_date = new Date(blog_detail.publish_date);
             
-            var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-            blog_detail.publish_date_month = month_names_short[publish_date.getMonth()]
-            blog_detail.publish_date_day = publish_date.getDate()
+            // var month_names_short = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            // blog_detail.publish_date_month = month_names_short[publish_date.getMonth()]
+            // blog_detail.publish_date_day = publish_date.getDate()
 
             
             // renderPostDetailTemplate('#blog_detail_template_1', '#blog_detail_container_1',blog_detail);

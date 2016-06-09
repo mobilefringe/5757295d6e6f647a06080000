@@ -22,10 +22,10 @@
                 <script id="blog_detail_template_2" type="x-tmpl-mustache">
                     <div class="blog-detail-nav">
                         {{#prev_post}}
-                            <a class="prev-post" href="/posts/{{ slug }}">PREVIOUS STORY</a>
+                            <a class="prev-post" href="/posts/{{prev_slug}}">PREVIOUS STORY</a>
                         {{/prev_post}}
                         {{#next_post}}
-                            <a class="next-post" href="/posts/{{ slug }}">NEXT STORY</a>
+                            <a class="next-post" href="/posts/{{next_slug}}">NEXT STORY</a>
                         {{/next_post}}
                     </div>
                     <article class="entry-post">

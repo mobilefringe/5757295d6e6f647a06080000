@@ -153,10 +153,10 @@
             blog_detail.publish_date_month = month_names_short[publish_date.getMonth()]
             blog_detail.publish_date_day = publish_date.getDate()
 
-            renderPostDetails("#blog_detail_template_2", "#blog_detail_container_2", post);
-            // renderPostDetailTemplate('#blog_detail_template_1', '#blog_detail_container_1',blog_detail);
-            // renderPostDetailTemplate('#blog_detail_template_2', '#blog_detail_container_2',blog_detail);
-            // renderPostListTemplate('#blog_detail_template_3', '#blog_detail_container_3', getBlogDataBySlug('ptc-blog').posts);
+            
+            renderPostDetailTemplate('#blog_detail_template_1', '#blog_detail_container_1',blog_detail);
+            renderPostDetailTemplate('#blog_detail_template_2', '#blog_detail_container_2',blog_detail);
+            renderPostListTemplate('#blog_detail_template_3', '#blog_detail_container_3', getBlogDataBySlug('ptc-blog').posts);
 
             //change img url
             $('.blog_detail_description img').attr('src',function(i,e){

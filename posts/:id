@@ -271,7 +271,7 @@
             if (val.tag != undefined){
                 val.tag_list = val.tag.join(', ');
             }
-            consol.log(val)
+            console.log(val)
             var rendered = Mustache.render(template_html,val);
             item_rendered.push(rendered);
         });

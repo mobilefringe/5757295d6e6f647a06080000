@@ -1,13 +1,3 @@
-<script type="text/javascript">
-(function l(d){
- var site = '6763', page = 'Pretty_Great', s, er = d.createElement('script');
- er.type = 'text/javascript';
- er.async = true;
- er.src = '//o2.eyereturn.com/?site=' + site + '&page=' + page;
- s = d.getElementsByTagName('script')[0];
- s.parentNode.insertBefore(er, s);
-})(document);
-</script>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"> <![endif]-->
 <!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en" dir="ltr"> <![endif]-->

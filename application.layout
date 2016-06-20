@@ -37,7 +37,7 @@
 		<!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png" />-->
 		<link rel="shortcut icon" href="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/cd42121224f9ee5efcf3f7f7a81f41d4/favicon_16.ico" />
 
-		
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
 	    <script src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/d2d2e908a39300174ad9e0ac422787c2/lemmon-slider.js"></script>
 
 		<!-- Add to Head after Style sheet http://modernizr.com/docs/#installing  ================ -->

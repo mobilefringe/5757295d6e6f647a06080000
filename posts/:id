@@ -74,7 +74,7 @@
             </div>
             <section class="span3 sidebar secondary-column" id="secondary-nav">
                 <aside class="widget">
-                    <h5 class="short_headline"><span><b>LATEST</b>POSTS</span></h5>
+                    <h5 class="short_headline"><span><b>LATEST</b> POSTS</span></h5>
                     <div class="sidebar-tabs" id="blog_detail_container_3"></div>
                         <script id="blog_detail_template_3" type="x-tmpl-mustache">
                             <div class="panels">

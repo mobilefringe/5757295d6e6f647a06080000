@@ -1916,7 +1916,7 @@ a.thumbnail:hover {
     background-position: 0 -1px;
     background-repeat: no-repeat;
     width: 10px;
-    height: 40px;
+    height: 18px;
 }
 #social_twitter {
     display: inline-block;
@@ -1935,7 +1935,7 @@ a.thumbnail:hover {
     background-position: -58px -1px;
     background-repeat: no-repeat;
     width: 20px;
-	height: 41px;
+	height: 20px;
 }
 #social_sc {
     display: inline-block;
@@ -1944,7 +1944,7 @@ a.thumbnail:hover {
     background-position: -92px 0;
     background-repeat: no-repeat;
     width: 22px;
-	height: 42px;
+	height: 21px;
 }
 #social_yt {
     display: inline-block;
@@ -1962,7 +1962,7 @@ a.thumbnail:hover {
     background-position: -175px -1px;
     background-repeat: no-repeat;
     width: 20px;
-	height: 40px;
+	height: 20px;
 }
 
 

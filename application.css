@@ -1907,7 +1907,7 @@ a.thumbnail:hover {
     opacity: .5
 }
 
-#footer .footerCredits #social_fb {
+#footer .footerCredits .social_icons #social_fb {
     background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/026/659/original/social_icons_stripe.png?1488309608);
     background-size: 390px 62px;
     background-position-x: 0;

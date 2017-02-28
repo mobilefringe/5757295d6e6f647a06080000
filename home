@@ -150,7 +150,7 @@ function renderPostTileTemplate(blog_template, blog_block, post){
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
     
     totalPosts = post.length;
-    showingPosts = $('.Blog').length + interval;
+    showingPosts = $('.sparkNowTile').length + interval;
 
     $.each( post , function( key, val ) {
         item_list.push(val);

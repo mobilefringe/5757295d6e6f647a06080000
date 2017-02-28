@@ -2562,7 +2562,6 @@ body {
     }
     .social_icons {
         padding-top: 35px;
-        /*padding-left: 20px;*/
     }
 /**** end max width 768 ****/
 
@@ -2816,6 +2815,10 @@ body {
     }
     .call-to-action p {
         font-size: 100%;
+    }
+    .social_icons {
+        padding-top: 0;
+        float: right;
     }
 }
 

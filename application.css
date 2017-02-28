@@ -1912,7 +1912,7 @@ a.thumbnail:hover {
     float: left;
 }
 #footer .footerCredits .social_icons a {
-    
+    padding-right: 0;
 }
 #social_fb {
     display: inline-block;

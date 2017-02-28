@@ -162,7 +162,7 @@
 							    <a href="http://pickeringtowncentre.com/newsletter" target="_blank">
 							    <img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/61c6905430240ce0bdb389ec72467071/getonthelist.jpg" class="" alt=""></a>
 							</li>
-							<!--<li><a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a></li>-->
+						<a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a></li>
 							<li><a href="/categories/store%20updates">STORE UPDATES</a></li>
 							<!--<li><a href="/media">MEDIA</a></li>-->
 							<!--<li><a href="/renderings">RENDERINGS</a></li>-->
@@ -189,7 +189,7 @@
 						</div>
 						<div id="headerBottom">
 							<ul id="headerNav">
-								<!--<li><a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a></li>-->
+								<a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a></li>
 								<li><a href="/categories/store%20updates">STORE UPDATES</a></li>
 								<!--<li><a href="/media">MEDIA</a></li>-->
 								<!--<li><a href="/renderings">RENDERINGS</a></li>-->

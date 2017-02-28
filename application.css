@@ -757,6 +757,7 @@ body.tall-logo nav.user {
         position: absolute;
         left: 10px;
         top: 0px;
+        
         background: url(../images/navtriggerbg.) -20px 50% no-repeat;
     }
     
@@ -766,6 +767,7 @@ body.tall-logo nav.user {
     
     .mobile_nav .mobile_nav_bar {
         color: #fff;
+        background-color:black;
         text-decoration: none;
         display: inline-block;
         padding: 0 0 0 5px;

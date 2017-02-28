@@ -1911,6 +1911,9 @@ a.thumbnail:hover {
     display: inline-block;
     float: left;
 }
+#footer .footerCredits .social_icons a {
+    
+}
 #social_fb {
     display: inline-block;
     background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/026/659/original/social_icons_stripe.png?1488309608); 

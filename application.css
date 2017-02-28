@@ -1906,8 +1906,10 @@ a.thumbnail:hover {
 .social li a:hover {
     opacity: .5
 }
-.social_icons a {
-    padding-right: 0;
+.social_icons {
+    padding-top: 40px;
+    display: inline-block;
+    float: left;
 }
 #social_fb {
     display: inline-block;

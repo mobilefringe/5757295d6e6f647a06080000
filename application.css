@@ -1922,7 +1922,8 @@ a.thumbnail:hover {
     background-size: 195px 42px;
     background-position: 24px -2px;
     background-repeat: no-repeat;
-    width: 34px;
+    width: 20px;
+	height: 17px;
 }
 
 #social_insta {

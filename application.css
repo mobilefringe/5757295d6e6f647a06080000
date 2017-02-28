@@ -1920,7 +1920,7 @@ a.thumbnail:hover {
 .social_icons #social_twitter {
     background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/026/659/original/social_icons_stripe.png?1488309608);
     background-size: 195px 42px;
-    background-position: 24px -2px;
+    background-position: -24px -2px;
     background-repeat: no-repeat;
     width: 20px;
 	height: 17px;
@@ -1936,23 +1936,29 @@ a.thumbnail:hover {
 }
 .social_icons #social_sc {
     background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/026/659/original/social_icons_stripe.png?1488309608);
-    background-size: 390px 62px;
-    background-position-x: -254px;
-    width: 32px;
+    background-size: 195px 42px;
+    background-position: -92px 0;
+    background-repeat: no-repeat;
+    width: 22px;
+	height: 42px;
 }
 
 #footer .footerCredits #social_yt {
     background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/026/659/original/social_icons_stripe.png?1488309608);
-    background-size: 390px 62px;
-    background-position-x: -205px;
-    width: 28px;
+    background-size: 195px 42px;
+    background-position: -130px -2px;
+    background-repeat: no-repeat;
+    width: 26px;
+	height: 18px;
 }
 
 #footer .footerCredits #social_rs {
     background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/026/659/original/social_icons_stripe.png?1488309608);
-    background-size: 286px 62px;
-    background-position-x: -154px;
-    width: 28px;
+    background-size: 195px 42px;
+    background-position: -175px -1px;
+    background-repeat: no-repeat;
+    width: 20px;
+	height: 40px;
 }
 
 

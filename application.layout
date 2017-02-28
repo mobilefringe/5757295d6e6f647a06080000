@@ -230,25 +230,27 @@
         					<div id="footerTop">
         					<div class="social_icons">
             
-	<a href="https://www.facebook.com/CanadianTireMotorsportPark" id="social_fb" target="_blank">Facebook</a>
+	<a href="https://www.facebook.com/CanadianTireMotorsportPark" id="social_fb" target="_blank"></a>
 
 
 
-	<a href="https://twitter.com/CTMPOfficial" id="social_twitter" target="_blank">Twitter</a>
+	<a href="https://twitter.com/CTMPOfficial" id="social_twitter" target="_blank"></a>
 
 
 
 
 
-	<a href="https://www.instagram.com/ctmpofficial/?hl=en" id="social_insta" target="_blank">Instagram</a>
+	<a href="https://www.instagram.com/ctmpofficial/?hl=en" id="social_insta" target="_blank"></a>
+
+<a href="http://www.snapchat.com/" id="social_sc" target="_blank"></a>
+
+	<a href="http://www.youtube.com/CTMPOfficial" id="social_yt" target="_blank"></a>
+	
+	<a href="http://www.youtube.com/CTMPOfficial" id="social_rs" target="_blank"></a>
 
 
 
-	<a href="http://www.youtube.com/CTMPOfficial" id="social_yt" target="_blank">YouTube</a>
-
-
-
-	<a href="http://www.snapchat.com/add/CTMPLIFE" id="social_sc" target="_blank">Snapchat</a>
+	
 
 
           </div>

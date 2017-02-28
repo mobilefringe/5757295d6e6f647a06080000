@@ -229,12 +229,12 @@
         				<div id="footerAbout">
         					<div id="footerTop">
         					    <div class="social_icons">
-	                                <a href="https://www.facebook.com/CanadianTireMotorsportPark" id="social_fb" target="_blank"></a>
-	                                <a href="https://twitter.com/CTMPOfficial" id="social_twitter" target="_blank"></a>
-                                	<a href="https://www.instagram.com/ctmpofficial/?hl=en" id="social_insta" target="_blank"></a>
-                                    <a href="http://www.snapchat.com/" id="social_sc" target="_blank"></a>
-                                	<a href="http://www.youtube.com/CTMPOfficial" id="social_yt" target="_blank"></a>
-                                	<a href="http://www.youtube.com/CTMPOfficial" id="social_rs" target="_blank"></a>
+	                                <a href="https://www.facebook.com/CanadianTireMotorsportPark" target="_blank"><span id="social_fb"></span></a>
+	                                <a href="https://twitter.com/CTMPOfficial" target="_blank"><span id="social_twitter"></span></a>
+                                	<a href="https://www.instagram.com/ctmpofficial/?hl=en" target="_blank"><span id="social_insta"></span></a>
+                                    <a href="http://www.snapchat.com/"  target="_blank"><span id="social_sc"></span></a>
+                                	<a href="http://www.youtube.com/CTMPOfficial" target="_blank"><span id="social_yt"></span></a>
+                                	<a href="http://www.youtube.com/CTMPOfficial" target="_blank"><span id="social_rs"></span></a>
                                 </div>
         						<div id="footerLogo">
         							<a href="http://www.pickeringtowncentre.com/"><img src="https://www.mallmaverick.com/system/site_images/photos/000/026/650/original/ptc_footerlogo.jpg?1488304190"></a>

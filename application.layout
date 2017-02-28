@@ -228,7 +228,7 @@
         				</div>
         				<div id="footerAbout">
         					<div id="footerTop">
-        						<div class="social_icons">
+        					<div class="social_icons">
             
 	<a href="https://www.facebook.com/CanadianTireMotorsportPark" id="social_fb" target="_blank">Facebook</a>
 
@@ -250,9 +250,12 @@
 
 	<a href="http://www.snapchat.com/add/CTMPLIFE" id="social_sc" target="_blank">Snapchat</a>
 
-<a href="" id="social_rs" target="_blank">Snapchat</a>
 
           </div>
+        						<div id="footerLogo">
+        							<a href="http://www.pickeringtowncentre.com/"><img src="https://www.mallmaverick.com/system/site_images/photos/000/026/650/original/ptc_footerlogo.jpg?1488304190"></a>
+        						</div>
+        					</div>
         					<div id="footerBottom">
         						2016 PICKERING TOWN CENTRE BLOG / ALL RIGHTS RESERVED
         					</div>

@@ -228,18 +228,31 @@
         				</div>
         				<div id="footerAbout">
         					<div id="footerTop">
-        						<div id="footerSocial">
-        							<ul>
-        								<li><a href="https://www.facebook.com/Pickeringtowncentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/29a93cc9dd3b7f858a31366f54bbc07b/social_fb.png"></a></li>
-        								<li><a href="https://twitter.com/PickeringTC" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/29a93cc9dd3b7f858a31366f54bbc07b/social_twit.png"></a></li>
-        								<li><a href="https://www.instagram.com/pickeringtowncentre/" target="_blank"><img src="https://www.mallmaverick.com/system/site_images/photos/000/026/656/original/instagram.png?1488308659"></a></li>
-        								<li><a href="https://www.youtube.com/user/PickeringTownCentre" target="_blank"><img src="http://kodekloud.s3.amazonaws.com/sites/5512e0606e6f64112d000000/29a93cc9dd3b7f858a31366f54bbc07b/social_youtube.png"></a></li>
-        							</ul>
-        						</div>
-        						<div id="footerLogo">
-        							<a href="http://www.pickeringtowncentre.com/"><img src="https://www.mallmaverick.com/system/site_images/photos/000/026/650/original/ptc_footerlogo.jpg?1488304190"></a>
-        						</div>
-        					</div>
+        						<div class="social_icons">
+            
+	<a href="https://www.facebook.com/CanadianTireMotorsportPark" id="social_fb" target="_blank">Facebook</a>
+
+
+
+	<a href="https://twitter.com/CTMPOfficial" id="social_twitter" target="_blank">Twitter</a>
+
+
+
+
+
+	<a href="https://www.instagram.com/ctmpofficial/?hl=en" id="social_insta" target="_blank">Instagram</a>
+
+
+
+	<a href="http://www.youtube.com/CTMPOfficial" id="social_yt" target="_blank">YouTube</a>
+
+
+
+	<a href="http://www.snapchat.com/add/CTMPLIFE" id="social_sc" target="_blank">Snapchat</a>
+
+<a href="" id="social_rs" target="_blank">Snapchat</a>
+
+          </div>
         					<div id="footerBottom">
         						2016 PICKERING TOWN CENTRE BLOG / ALL RIGHTS RESERVED
         					</div>

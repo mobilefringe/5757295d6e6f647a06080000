@@ -1918,6 +1918,15 @@ a.thumbnail:hover {
     width: 10px;
     height: 18px;
 }
+#social_fb:hover {
+    display: inline-block;
+    background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/026/659/original/social_icons_stripe.png?1488309608); 
+    background-size: 195px 42px;
+    background-position: 0 -1px;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 18px;
+}
 #social_twitter {
     display: inline-block;
     background-image: url(https://www.mallmaverick.com/system/site_images/photos/000/026/659/original/social_icons_stripe.png?1488309608);

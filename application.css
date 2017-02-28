@@ -2557,6 +2557,9 @@ body {
     .clientlogos .slides li {margin:0 1px 0 0;position:relative;width:170px!important;float:left;}
 
     }
+    .social_icons {
+        padding-left: 20px;
+    }
 /**** end max width 768 ****/
 
 

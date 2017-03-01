@@ -43,8 +43,12 @@ $(document).ready(function() {
         var category = pathArray[pathArray.length-1];
         console.log(category);
         category = category.replace("%20"," ");
-
+        
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostsByTag(category));
+        
+        if(category = "redevelopment%20news") {
+            $("#dev_news").css({fontWeight: "bold"})
+        }
     }
     
     loadMallData(renderPageData);

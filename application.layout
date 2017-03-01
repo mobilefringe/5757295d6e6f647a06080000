@@ -150,23 +150,29 @@
 			<!-- begin .header-->
 			<header class="header clearfix">
                 <div class="mobile-menu-holder">
-					    <ul id="">
-					        <li>
-					            <form class="mobile_search_bar_form" action="/search">
-									<label for="mobile_search_bar" style="display:none;">SEARCH</label>
-									<input id="mobile_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">
-								</form>
-					        </li>
-							<li>
-							    <a href="http://pickeringtowncentre.com/newsletter" target="_blank">
-							    <img src="http://assets.codecloudapp.com/sites/5757295d6e6f647a06080000/image/jpeg/1488402466000/getonthelist (1).jpg" class="" alt=""></a>
-							</li>
-					<li>	<a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a></li>
-						<li>	<a href="/categories/lookbook">FASHION LOOK BOOK</a></li>
-							<li><a href="/categories/store%20updates">STORE UPDATES</a></li>
-							<!--<li><a href="/media">MEDIA</a></li>-->
-							<!--<li><a href="/renderings">RENDERINGS</a></li>-->
-						</ul>
+				    <ul id="">
+				        <li>
+				            <form class="mobile_search_bar_form" action="/search">
+								<label for="mobile_search_bar" style="display:none;">SEARCH</label>
+								<input id="mobile_search_bar" name="keyword" type="text" class="search-query input-block-level" placeholder="SEARCH">
+							</form>
+				        </li>
+						<li>
+						    <a href="http://pickeringtowncentre.com/newsletter" target="_blank">
+						    <img src="http://assets.codecloudapp.com/sites/5757295d6e6f647a06080000/image/jpeg/1488402466000/getonthelist (1).jpg" class="" alt=""></a>
+						</li>
+				        <li>	
+				            <a href="/categories/redevelopment%20news" id="dev_news">REDEVELOPMENT NEWS</a>
+			            </li>
+						<li>	
+						    <a href="/categories/lookbook" id="fashion">FASHION LOOK BOOK</a>
+					    </li>
+						<li>
+						    <a href="/categories/store%20updates" id="store_updates">STORE UPDATES</a>
+					    </li>
+						<!--<li><a href="/media">MEDIA</a></li>-->
+						<!--<li><a href="/renderings">RENDERINGS</a></li>-->
+					</ul>
 				</div>
 				<div class="container"> 
 					<!-- begin #main_menu -->

@@ -52,8 +52,8 @@ $(document).ready(function() {
         if(category === "lookbook") {
             $("#fashion").css({"fontWeight": "bold"});
         }
-        if(category === "lookbook") {
-            $("#fashion").css({"fontWeight": "bold"});
+        if(category === "store updates") {
+            $("#store_updates").css({"fontWeight": "bold"});
         }
     }
     

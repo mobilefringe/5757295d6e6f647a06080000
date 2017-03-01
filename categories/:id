@@ -46,8 +46,11 @@ $(document).ready(function() {
         
         renderPostTileTemplate('#blog_tile_template', '#main-content',getPostsByTag(category));
         
-        if(category === "redevelopment%20news") {
+        if(category === "redevelopment news") {
             $("#dev_news").css({"fontWeight": "bold"});
+        }
+        if(category === "lookbook") {
+            $("#fashion").css({"fontWeight": "bold"});
         }
         if(category === "lookbook") {
             $("#fashion").css({"fontWeight": "bold"});

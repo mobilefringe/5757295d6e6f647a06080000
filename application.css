@@ -102,6 +102,7 @@ body.tall-logo nav.user {
 }
 #headerLogo img{
     width:100px;
+    margin-left: 10px;
     padding-left:15px;
 }
 

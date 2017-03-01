@@ -1072,7 +1072,7 @@ blockquote, .statement, .header .tagline { font-family: Garamond, "Apple Garamon
 ================================================== */
 a { text-decoration: underline }
 a:hover {
-    color: #f0f0f0;
+    color: #0290b3;
     text-decoration: none;
 }
 p a,

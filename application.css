@@ -1909,7 +1909,6 @@ a.thumbnail:hover {
 .social_icons {
     padding-top: 40px;
     display: inline-block;
-    float: left;
 }
 #footer .footerCredits .social_icons a {
     padding-right: 10px;

@@ -49,6 +49,9 @@ $(document).ready(function() {
         if(category === "redevelopment%20news") {
             $("#dev_news").css({"fontWeight": "bold"});
         }
+        if(category === "lookbook") {
+            $("#fashion").css({"fontWeight": "bold"});
+        }
     }
     
     loadMallData(renderPageData);

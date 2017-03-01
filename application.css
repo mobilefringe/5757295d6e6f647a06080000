@@ -126,7 +126,9 @@ body.tall-logo nav.user {
     text-decoration: none;
     color:white !important;
 }
-
+.header a:hover {
+    font-weight: bold;
+}
 #headerTop{
     float: right;
     padding-bottom: 42px;

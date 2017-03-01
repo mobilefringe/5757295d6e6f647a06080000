@@ -2819,6 +2819,10 @@ body {
     .call-to-action p {
         font-size: 100%;
     }
+    #footerTop {
+        flex-direction: column-reverse;
+        align-itmes: flex-end;
+    }
     .social_icons {
         padding-top: 0;
         float: right;

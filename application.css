@@ -3277,7 +3277,8 @@ h2,  h3 { page-break-after: avoid; }
     font-size: 28pt;
 }
 .entry-header p,.entry-header p span{
-    font-family: Georgia, serif !important;
+    /*font-family: Georgia, serif !important;*/
+    font-family:"Maven Pro", Sans-Serif;
     font-size: 15pt !important;
 }
 

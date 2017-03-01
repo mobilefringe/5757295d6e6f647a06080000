@@ -1908,6 +1908,7 @@ a.thumbnail:hover {
 }
 .social_icons {
     padding-top: 30px;
+    padding-right: 12px;
     display: inline-block;
 }
 #footer .footerCredits .social_icons a {

@@ -2821,7 +2821,7 @@ body {
     }
     #footerTop {
         flex-direction: column-reverse;
-        align-itmes: flex-end;
+        align-items: flex-end;
     }
     .social_icons {
         padding-top: 0;

@@ -162,13 +162,13 @@
 						    <img src="http://assets.codecloudapp.com/sites/5757295d6e6f647a06080000/image/jpeg/1488402466000/getonthelist (1).jpg" class="" alt=""></a>
 						</li>
 				        <li>	
-				            <a href="/categories/redevelopment%20news" id="dev_news">REDEVELOPMENT NEWS</a>
+				            <a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a>
 			            </li>
 						<li>	
-						    <a href="/categories/lookbook" id="fashion">FASHION LOOK BOOK</a>
+						    <a href="/categories/lookbook">FASHION LOOK BOOK</a>
 					    </li>
 						<li>
-						    <a href="/categories/store%20updates" id="store_updates">STORE UPDATES</a>
+						    <a href="/categories/store%20updates">STORE UPDATES</a>
 					    </li>
 						<!--<li><a href="/media">MEDIA</a></li>-->
 						<!--<li><a href="/renderings">RENDERINGS</a></li>-->
@@ -195,9 +195,9 @@
 						</div>
 						<div id="headerBottom">
 							<ul id="headerNav">
-							<li>	<a href="/categories/redevelopment%20news">REDEVELOPMENT NEWS</a></li>
-							<li>	<a href="/categories/lookbook">FASHION LOOK BOOK</a></li>
-								<li><a href="/categories/store%20updates">STORE UPDATES</a></li>
+							<li>	<a href="/categories/redevelopment%20news" id="dev_news">REDEVELOPMENT NEWS</a></li>
+							<li>	<a href="/categories/lookbook" id="fashion">FASHION LOOK BOOK</a></li>
+								<li><a href="/categories/store%20updates" id="store_updates">STORE UPDATES</a></li>
 								<!--<li><a href="/media">MEDIA</a></li>-->
 								<!--<li><a href="/renderings">RENDERINGS</a></li>-->
 							</ul>

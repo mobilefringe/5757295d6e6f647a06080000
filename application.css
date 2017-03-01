@@ -1907,7 +1907,7 @@ a.thumbnail:hover {
     opacity: .5
 }
 .social_icons {
-    padding-top: 40px;
+    padding-top: 30px;
     display: inline-block;
 }
 #footer .footerCredits .social_icons a {
@@ -2132,6 +2132,9 @@ ul.image-widget {
     width:120px;
 }
 #footerTop{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     border-bottom: 1px solid #C2C2C2;
     padding-bottom: 8px;
 }

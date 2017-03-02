@@ -122,7 +122,7 @@
 			    </div>
 			</div>
                 <div class="row-fluid equalHero equalHeights" id="main-content">
-                    <center><img alt="loading" style="width:50px; height:50px;" src="//codecloud.cdn.speedyrails.net/sites/5757295d6e6f647a06080000/image/gif/1488389451000/loading.gif"></center>
+                    <center><img alt="loading" style="width:100px; height:100px;" src="//codecloud.cdn.speedyrails.net/sites/5757295d6e6f647a06080000/image/gif/1488389451000/loading.gif"></center>
 				</div>
 		</div>
 		            <script id="blog_tile_template" type="x-tmpl-mustache">

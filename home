@@ -4,7 +4,7 @@
 	<div class="lemmon-wrap clearfix">
 		<div class="lemmon-slider">
 			<ul id="blog_banner">
-			     <center> <img alt="loading" style="width:250px; height:250px;" src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/466b965dbf1459e8b4127cd8039f46ab/loading-1.gif"></center>
+			     <center><img alt="loading" style="width:250px; height:250px;" src="//codecloud.cdn.speedyrails.net/sites/5757295d6e6f647a06080000/image/gif/1488389451000/loading.gif"></center>
 		    </ul>
 		</div>
 		<div class="controls"> <a href="#" class="prev-slide">Prev Page</a> <a href="#" class="next-slide">Next Page</a> </div>

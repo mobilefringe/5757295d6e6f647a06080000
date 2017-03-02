@@ -6,7 +6,7 @@
 			<!-- begin equalHeights columns 3 -->
 			<h3 class="short_headline sparkNowTitle"><span>The Latest</span></h3>
                 <div class="row-fluid equalHero equalHeights" id="main-content">
-				         <center> <img alt="loading" style="width:50px; height:50px;" src="//codecloud.cdn.speedyrails.net/sites/5757295d6e6f647a06080000/image/gif/1488389451000/loading.gif"></center>
+				         <center> <img alt="loading" style="width:100px; height:100px;" src="//codecloud.cdn.speedyrails.net/sites/5757295d6e6f647a06080000/image/gif/1488389451000/loading.gif"></center>
 				</div>
                     <script id="blog_tile_template" type="x-tmpl-mustache">
             			<div class="span6 sparkNowTile">

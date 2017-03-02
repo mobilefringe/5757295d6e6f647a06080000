@@ -158,8 +158,8 @@ $(document).ready(function() {
 
         renderRepoDetailTemplate('#blog_tile_template', '#main-content',getRepoDetailsByName("pretty-great-media"));
         
-        // $('#loading').hide();
-        // $('#page_content').fadeIn('fast');
+        $('#loading').hide();
+        $('#page_content').fadeIn('fast');
     }
     
     loadMallData(renderPageData);

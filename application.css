@@ -1870,9 +1870,12 @@ a.thumbnail:hover {
 #footer {
     clear: both;
     background: #4c5966;
-    box-shadow: 0px 4px 60px 0px #888;
-    -webkit-box-shadow: 0px 4px 60px 0px #888;
-    -moz-box-shadow: 0px 4px 60px 0px #888;
+    /*box-shadow: 0px 4px 60px 0px #888;*/
+    /*-webkit-box-shadow: 0px 4px 60px 0px #888;*/
+    /*-moz-box-shadow: 0px 4px 60px 0px #888;*/
+    box-shadow: 0px -40px 80px -40px #bababa;
+    -webkit-box-shadow: 0px -40px 80px -40px #bababa;
+    -moz-box-shadow: 0px -40px 80px -40px #bababa;
 }
 #footer a {
     color: #9bd9e9;

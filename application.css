@@ -161,7 +161,7 @@ body.tall-logo nav.user {
     margin: 0px;
     font-size: 11pt;
     line-height: 15px;
-    color: #965251;
+    color: white;
 }
 #desktop_search_bar::-webkit-input-placeholder { /* WebKit browsers */
     color:    #ffffff;

@@ -29,7 +29,7 @@
 			    <div class="span3 rendering-right">
 			        <a class="scroll_up" href="javascript:void(0);" onclick="media_scroll_up()"><img src="http://assets.codecloudapp.com/sites/5757295d6e6f647a06080000/image/png/undefined/icon_up.png"></a>
                     <div class="row-fluid equalHero equalHeights" id="list-content">
-                        <center> <img alt="loading" style="width:250px; height:250px;" src="http://kodekloud.s3.amazonaws.com/sites/5438407c6e6f64462d020000/466b965dbf1459e8b4127cd8039f46ab/loading-1.gif"></center>
+                        <center><img alt="loading" style="width:100px; height:100px;" src="//codecloud.cdn.speedyrails.net/sites/5757295d6e6f647a06080000/image/gif/1488389451000/loading.gif"></center>
                     </div>
 			        <a class="scroll_down" href="javascript:void(0);" onclick="media_scroll_down()"><img src="http://assets.codecloudapp.com/sites/5757295d6e6f647a06080000/image/png/undefined/icon_down.png"></a>
                     <script id="blog_tile_template" type="x-tmpl-mustache">

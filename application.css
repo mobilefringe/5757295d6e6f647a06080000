@@ -73,6 +73,12 @@ body.tall-logo nav.user {
     left: 0;
 }
 
+.author{
+    font-family: "Maven Pro", Sans-Serif;
+    font-size: 12pt;
+    color: #7e7e7e;
+}
+
 #logo em {
     position: absolute;
     display: block;

@@ -30,6 +30,7 @@
                     </div>
                     <article class="entry-post">
                         <header class="entry-header">
+                            <div class="addthis_native_toolbox"></div>
                             {{#video_link}}
                                 <div class="video-container" id="post_video">
                                     <iframe width="560" height="315" src="//www.youtube.com/embed/{{.}}" frameborder="0" allowfullscreen></iframe>

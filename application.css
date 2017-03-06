@@ -3290,7 +3290,7 @@ h2,  h3 { page-break-after: avoid; }
     font-size: 15pt !important;
 }
 
-.author{
+.entry-header p.author{
     font-family: "Maven Pro", Sans-Serif;
     font-size: 12pt !important;
     color: #7e7e7e;

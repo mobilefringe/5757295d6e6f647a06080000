@@ -75,7 +75,7 @@ body.tall-logo nav.user {
 
 p.author{
     font-family: "Maven Pro", Sans-Serif;
-    font-size: 12pt;
+    font-size: 12pt !important;
     color: #7e7e7e;
 }
 

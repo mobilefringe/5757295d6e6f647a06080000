@@ -73,11 +73,7 @@ body.tall-logo nav.user {
     left: 0;
 }
 
-p.author{
-    font-family: "Maven Pro", Sans-Serif;
-    font-size: 12pt !important;
-    color: #7e7e7e;
-}
+
 
 #logo em {
     position: absolute;
@@ -3293,6 +3289,13 @@ h2,  h3 { page-break-after: avoid; }
     font-family:"Maven Pro", Sans-Serif;
     font-size: 15pt !important;
 }
+
+.author{
+    font-family: "Maven Pro", Sans-Serif;
+    font-size: 12pt !important;
+    color: #7e7e7e;
+}
+
 
 .entry-tags{
     font-size: 11pt;

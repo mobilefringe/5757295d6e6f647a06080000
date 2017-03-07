@@ -80,6 +80,8 @@ body.tall-logo nav.user {
 }
 #headerNav .dropdown-menu li {
     padding-left: 0;
+    width: 100%;
+    text-align: left;
 }
 .dropdown.open{
     background:#000;

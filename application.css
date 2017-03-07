@@ -48,6 +48,7 @@ nav.user a:hover {
 body.tall-logo nav.user {
     margin-left: 180px;
 }
+
 .dropdown-menu {
     margin: 0;
     padding: 5px 0;
@@ -61,19 +62,11 @@ body.tall-logo nav.user {
     width: 100%;
     background: #000;
     background-clip: padding-box;
-    
     border-radius: 0;
     border-top: 1px solid #fff;
-
-    
-    
-    
-
     font-size: 14px;
     text-align: left;
     list-style: none;
-    
-    
     /*border: 1px solid #ccc;*/
     /*border: 1px solid rgba(0,0,0,.15);*/
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
@@ -85,12 +78,12 @@ body.tall-logo nav.user {
 }
 .dropdown.open{
     background:#000;
-    &>a{
-        color:#fff;
-        text-decoration:none;
-        font-weight:400;
-        position:relative;
-    }
+    /*&>a{*/
+    /*    color:#fff;*/
+    /*    text-decoration:none;*/
+    /*    font-weight:400;*/
+    /*    position:relative;*/
+    /*}*/
     
 }
 /* header / logo (desktop)

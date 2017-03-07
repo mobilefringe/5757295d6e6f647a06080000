@@ -3283,6 +3283,7 @@ h2,  h3 { page-break-after: avoid; }
     letter-spacing: 5px;
     margin: 36px 0px 26px 0px;
     font-size: 28pt;
+    margin-bottom:5px;
 }
 .entry-header p,.entry-header p span{
     /*font-family: Georgia, serif !important;*/

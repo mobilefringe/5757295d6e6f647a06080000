@@ -79,6 +79,17 @@ body.tall-logo nav.user {
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
+
+.dropdown.open{
+    background:#000;
+    &>a{
+        color:#fff;
+        text-decoration:none;
+        font-weight:400;
+        position:relative;
+    }
+    
+}
 /* header / logo (desktop)
 ================================================== */
 

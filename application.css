@@ -78,7 +78,7 @@ body.tall-logo nav.user {
     /*border: 1px solid rgba(0,0,0,.15);*/
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
-.dropdown-menu li {
+#headerNav .dropdown-menu li {
     padding-left: 0;
 }
 .dropdown.open{

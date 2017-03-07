@@ -131,7 +131,7 @@
                     display:block;
                     padding:10px;
                 }
-                .mobile_submenu {
+                .mobile-menu-holder ul li.mobile_submenu {
                     padding-left: 30px;
                 }
 	        }

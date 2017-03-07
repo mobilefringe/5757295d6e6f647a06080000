@@ -57,7 +57,7 @@ body.tall-logo nav.user {
     z-index: 1000;
     display: none;
     float: left;
-    min-width: 100%;
+    min-width: 160px;
     width: 100%;
     background: #000;
     background-clip: padding-box;

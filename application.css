@@ -48,7 +48,14 @@ nav.user a:hover {
 body.tall-logo nav.user {
     margin-left: 180px;
 }
-
+.dropdown-menu {
+    background: #000;
+    min-width: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    border-top: 1px solid #fff;
+}
 /* header / logo (desktop)
 ================================================== */
 
